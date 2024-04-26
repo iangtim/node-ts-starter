@@ -1,2 +1,2 @@
 const hello = (name: string) => `Hello ${name}!`;
-console.log(hello('bimcode'));
+console.log(hello('World'));
