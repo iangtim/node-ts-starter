@@ -5,7 +5,7 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint . --fix",
+    "lint": "eslint src/**/*.ts --fix",
     "prestart": "npm run lint && npm run build",
     "start": "node dist/main.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,7 +18,7 @@
     "@types/node": "^20.12.7",
     "@typescript-eslint/eslint-plugin": "^7.7.1",
     "@typescript-eslint/parser": "^7.7.1",
-    "eslint": "^9.1.1",
+    "eslint": "^8.56.0",
     "nodemon": "^3.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
